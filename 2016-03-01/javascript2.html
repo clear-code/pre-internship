@@ -1,0 +1,20 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <body onload="alert('いらっしゃいませ。')" onunload="alert('またどうぞ。')">
+        <input type="button" value="クリック！" onclick="alert('ボタンがクリックされました。')"><br>
+        <input type="button" value="ボタン"
+           onmouseover="this.value='マウスオーバー'" onmouseout="this.value='マウスアウト'"><br>
+        <input type="button" value="ボタン"
+      onmousedown="this.value='マウスダウン'" onmouseup="this.value='マウスアップ'"><br>
+        <input type="button" value="ボタン"
+      onclick="this.value='クリック'" ondblclick="this.value='ダブルクリック'"><br>
+　　ようこそJavaScriptの世界へ<br>
+        <a href="http://www.google.com/" onclick="return false">リンクできない</a><br>
+        メールアドレス：<input type="text" oncopy="alert('コピー禁止！'); return false"
+      oncut="alert('カットも禁止！'); return false"><br>
+        メールアドレス（確認用）：<input type="text" onpaste="alert('ペースト禁止！'); return false"><br>
+    </body>
+    <body oncontextmenu="alert('右クリック禁止！'); return false">
+　　このページは右クリック禁止です。<br>
+  </body>
+</html>
